@@ -1,0 +1,44 @@
+\documentclass[11pt]{article}
+\usepackage{url}
+\usepackage{graphicx}
+\input{operators}
+\begin{document}
+\title{Simple paper without specific style}
+\author{Author Name\thanks{Use footnote for providing further information
+    about author (webpage, alternative address)---\emph{not} for acknowledging
+    funding agencies.} \\
+  Department of Computer Science\\
+  Tsinghua University\\
+  Haidian, Beijing \\
+  \texttt{not-email-address@tsinghua.edu.cn} \\
+}
+\date{\today}
+\maketitle
+%
+
+
+
+\begin{abstract}
+This is my abstract.
+\end{abstract}
+
+
+\section{Introduction}
+This is a simple documentation paper without any specific style. The margins and indents are carefully tuned. 
+
+Following AlphaGo~\cite{silver2016mastering}, we will realized the artificial intelligence.
+
+An important tool is Bayes theorem:
+\begin{equation}
+    p(A|B) = \frac{P(B|A)P(A)}{P(B)}
+\end{equation}
+
+
+\bibliographystyle{apalike}
+\bibliography{ref}
+
+\clearpage
+{\centering \huge Appendix}
+\appendix
+\section{this appendix section}
+\end{document}
