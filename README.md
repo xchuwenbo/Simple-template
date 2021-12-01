@@ -1,4 +1,4 @@
-# Simple-template for latex manuscripts
+# Simple template for latex manuscripts
 
 ## 中文
 xelatex cn.tex
