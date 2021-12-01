@@ -1,0 +1,43 @@
+\documentclass[11pt]{article}
+\usepackage{url}
+\usepackage{ctex}
+\usepackage{graphicx}
+\input{operators}
+\begin{document}
+\title{论文模板}
+\author{作者\thanks{脚注} \\
+  计算机系\\
+  清华大学\\
+  \texttt{not-email-address@tsinghua.edu.cn} \\
+}
+\date{\today}
+\maketitle
+%
+
+
+
+\begin{abstract}
+这是摘要。
+\end{abstract}
+
+
+\section{引论}
+这是一个没有特定格式的论文摘要。
+
+追随阿尔法围棋的脚步 ~\cite{silver2016mastering},我们在实现人工智能的道路上。
+
+其中一个重要的工具是贝叶斯定理：
+\begin{equation}
+    p(A|B) = \frac{P(B|A)P(A)}{P(B)}.
+\end{equation}
+
+
+
+\bibliographystyle{apalike}
+\bibliography{ref}
+
+\clearpage
+{\centering \huge 附录}
+\appendix
+\section{附录章节}
+\end{document}
