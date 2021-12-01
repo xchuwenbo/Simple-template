@@ -1,8 +1,8 @@
 # Simple-template for latex manuscripts
 
 ## 中文
-xelatex *.tex
+xelatex cn.tex
 
 ## English
 
-pdflatex *.tex
+pdflatex en.tex
